@@ -53,7 +53,7 @@ the following technologies:
 
 In total, the frontend consists of 101 files with a total of approx. 8000 lines of code.
 
-## 1.4 Docelowi użytkownicy
+## 1.4 Target Users
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/actors_diagram.png" width="600"/>
 
@@ -66,9 +66,9 @@ In total, the frontend consists of 101 files with a total of approx. 8000 lines 
   <li><b>Office employee</b> - osoba pracująca na stanowisku biurowym</li>
 </ul>
 
-# 2. Opis funkcjonalności
+# 2. Description of functionality
 
-## 2.1 Uruchomienie
+## 2.1 Activation
 
 ### Do uruchomienia potrzebne będą:
 <ul>
