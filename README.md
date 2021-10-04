@@ -1,6 +1,6 @@
 <img src="https://github.com/kubabar1/CarRental/blob/master/CarRental/src/main/webapp/static/img/car_rental_logo_name.png" width="400"/>
 
-# 1. Opis ogólny
+# 1. General description
 
 > A more detailed description of UML diagrams can be found in the Wiki tab, located at the link below.
 > https://github.com/kubabar1/CarRental/wiki
@@ -9,7 +9,7 @@
 ## 1.1 Program name
 *Car Rental*
 
-## 1.2 Cel aplikacji
+## 1.2 Purpose of the application
 
 The main purpose of creating this application was to put into practice the knowledge I have accumulated on the subject of development
 database rest applications using Spring.
@@ -20,7 +20,7 @@ viewing orders and changing account settings, and an administrator panel enablin
 users, adding and editing cars, editing car equipment. The application also has a logging system and new registration
 customers.
 
-## 1.3 Krótkie wstępne podsumowanie aplikacji
+## 1.3 A short introductory summary of the application
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/home.png" width="800"/>
 
@@ -33,8 +33,7 @@ REST API written in Spring using the following technologies:
   <li>Spring Data JPA</li>
   <li>Hibernate</li>
 </ul>
-W sumie projekt składa się z 8 pakietów, 83 klas które łącznie mają ok. 5000  linii kodu.
-
+In total, the project consists of 8 packages, 83 classes with a total of approx. 5000 lines of code.
 ### Frontend:
 Frontend was mainly written using React. I used the Thymeleaf technology to create a login panel,
 registration and as the basis for the main page of the project and the user panel. In total, I used to create the frontend
@@ -51,7 +50,8 @@ the following technologies:
 
 
 
-W sumie frontend składa się ze 101 plików, które w sumie liczą ok. 8000 linii kodu. 
+
+In total, the frontend consists of 101 files with a total of approx. 8000 lines of code.
 
 ## 1.4 Docelowi użytkownicy
 
