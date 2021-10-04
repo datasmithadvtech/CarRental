@@ -173,7 +173,7 @@ Only a logged in user can book a vehicle. To reserve a vehicle, complete the for
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/comment.gif" width="600"/>
 
-Aby dodać komentarz należy być zalogowanym. Komentarz wraz z liczbą gwiazdek można dodać na podstronie szczegółów danego pojazdu.
+You must be logged in to add a comment. A comment with the number of stars can be added on the vehicle details subpage.
 
 #### 2.2.6 Reviewing the list of the best offers
 
@@ -239,25 +239,25 @@ Użytkownik posiadający odpowiednie uprawnienia może anulować dowolną rezerw
 #### 2.2.18 Displaying a list of all currently rented cars.
 Aby wyświetlić listę wszystkich aktualnych wynajęć aut dokonanych przez użytkowników należy przejść do panelu klienta i kliknąc zakładkę *All rented bookings*.
 
-#### 2.2.19 Zmiana stanu rezerwacji przez pracownika na „Returned” po zwróceniu auta przez klienta.
+#### 2.2.19 Change of the reservation status by the employee to "Returned" after the customer returns the car.
 Użytkownik posiadający odpowiednie uprawnienia może zmienić status rezerwacji auta na „Returned”. Dzieje się to w momencie, gdy klient zwraca zarezerwowane auto.
 
-## PANEL UŻYTKOWNIKA - BOOKING
+## USER PANEL - BOOKING
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/bookings_client.gif" width="600"/>
 
-#### 2.2.20 Wyświetlenie listy wszystkich dokonanych zamówień użytkownika.
-Funkcjonalność ta jest udostępniona dla każdego zalogowanego użytkownika. Aby użytkownik mógł wyświetlić listę wszystkich dokonanych przez siebie zamówień musi przejść do panelu klienta i kliknąć zakładkę *My all bookings*.
+#### 2.2.20 Displaying a list of all orders placed by the user.
+This functionality is available for every logged in user. In order for the user to be able to view a list of all orders he has made, he must go to the customer panel and click the * My all bookings * tab.
 
-#### 2.2.21 Wyświetlenie listy wszystkich rezerwacji użytkownika.
-Funkcjonalność ta jest udostępniona dla każdego zalogowanego użytkownika. Aby użytkownik mógł wyświetlić listę wszystkich dokonanych przez siebie zamówień posiadających status *Reserved* musi przejść do panelu klienta i kliknąć zakładkę *My all rented bookings*.
+#### 2.2.21 View a list of all user bookings.
+This functionality is available for every logged in user. In order for the user to be able to view the list of all orders he has made with the * Reserved * status, he must go to the customer panel and click the * My all rented bookings * tab.
 
-#### 2.2.22 Odwołanie rezerwacji przez użytkownika.
-Funkcjonalność ta jest udostępniona dla każdego zalogowanego użytkownika. Aby użytkownik mógł anulować dokonaną przez siebie rezerwację musi przejść do panelu klienta, kliknąć zakładkę *My all reserved bookings* i kliknąć czerwony przycisk *Cancel* przy rezerwacji którą chcemy anulować.
+#### 2.2.22 Cancellation of the booking by the user.
+This functionality is available for every logged in user. In order for the user to cancel the booking he has made, he must go to the customer panel, click the * My all reserved bookings * tab and click the red button * Cancel * next to the booking that we want to cancel.
 
-#### 2.2.23 Wyświetlenie listy wszystkich wynajętych rezerwacji przez użytkownika
-Funkcjonalność ta jest udostępniona dla każdego zalogowanego użytkownika. Aby użytkownik mógł wyświetlić listę wszystkich swoich rezerwacji posiadających status "Rented" (wynajętych pojazdów) musi kliknąć w przycisk *My all rented bookings* znajdujący się w zakładce *Bookings*.
+#### 2.2.23 View a list of all rented bookings by the user
+This functionality is available for every logged in user. In order for the user to be able to view the list of all his bookings with the "Rented" status, he must click on the * My all rented bookings * button in the * Bookings * tab.
 
-## PANEL ADMINA - USERS
+## ADMIN PANEL - USERS
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/users.gif" width="600"/>
 
 #### 2.2.24 Wyświetlenie listy wszystkich użytkowników.
@@ -266,7 +266,7 @@ Aby wyświetlić listę wszystkich użytkowników należy kliknąć przycisk *Sh
 #### 2.2.25 Edycja użytkownika.
 Aby edytować użytkownika, należy kliknąć przycisk *Edit* znajdujący się obok użytkownika, na liście użytkowników.
 
-## PANEL ADMINA - CARS
+## ADMIN PANEL - CARS
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/cars.gif" width="600"/>
 
 #### 2.2.26 Wyświetlenie listy wszystkich aut.
@@ -280,7 +280,7 @@ Aby dodać nowe auto należy kliknąć zakładkę *Cars*, a następnie zakładk�
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/addcar.gif" width="600"/>
 
-## PANEL ADMINA - CARS EQUIPMENT
+## ADMIN PANEL - CARS EQUIPMENT
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/careqp.gif" width="600"/>
 
 #### 2.2.29 Wyświetlenie listy wszystkich elementów wyposażenia pojazdu o danym ID.
@@ -293,7 +293,7 @@ Aby dodać nowy element wyposażenia do auta, należy wyświetlić listę jego w
 #### 2.2.31 Usunięcie istniejącego elementu wyposażenia z auta o podanym ID.
 Aby usunąć element wyposażenia z auta, należy wyświetlić listę jego wyposażenia, a następnie kliknąć przycisk *Delete*.
 
-## PANEL ADMINA - EQUIPMENT
+## ADMIN PANEL - EQUIPMENT
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/equipmentlist.gif" width="600"/>
 
 #### 2.2.32 Wyświetlenie listy wszystkich istniejących elementów wyposażenia.
@@ -305,7 +305,7 @@ Aby dodać element wyposażenia do listy wszystkich elementów wyposażenia, nal
 #### 2.2.34 Usunięcie elementu wyposażenia z listy istniejących elementów.
 Aby usunąć element wyposażenia z listy wszystkich elementów wyposażenia, należy wyświetlić listę el. wyposażenia, a następnie kliknąć przycisk *Delete* przy pożądanym elemencie z listy.
 
-## PANEL ADMINA - USER ROLES
+## ADMIN PANEL - USER ROLES
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/userrole.gif" width="600"/>
 
 #### 2.2.35 Wyświetlenie listy użytkowników wraz z przypisanymi im rolami.
@@ -314,23 +314,23 @@ Aby wyświetlić listę użytkowników wraz z przypisanymi im rolami należy w p
 #### 2.2.36 Dodanie dla danego użytkownika nowej roli.
 Aby dodać dla danego użytkownika nową rolę, należy wyświetlić listę użytkowników wraz z przypisanymi im rolami, a następnie przy wybranym użytkowniku z listy kliknąć przycisk *Add role*. 
 
-## PANEL UŻYTKOWNIKA - LOCATIONS
+## USER PANEL - LOCATIONS
 
 #### 2.2.37 Wyświetlenie listy lokalizacji wypożyczalni aut.
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/locations.gif" width="600"/>
 
 Aby wyświetlić listę lokalizacji wypożyczalni aut należy kliknąć zakładkę *Locations*, a następnie zakładkę *Show*.
 
-## PANEL ADMINA - EMAILS
+## ADMIN PANEL - EMAILS
 
 #### 2.2.38 Wysłanie emaila do danego użytkownika.
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/emails.gif" width="600"/>
 
 Aby wysłać email do danego użytkownika, należy w panelu admina kliknąć zakładkę *Send e-mail*, a następnie wybrać użytkownika z listy i kliknąć znajdujący się obok niego przycisk *Send*.
 
-## PANEL UŻYTKOWNIKA - SETTINGS
+## USER PANEL - SETTINGS
 
-#### 2.2.39 Zmiana ustawień konta.
+#### 2.2.39 Change account settings.
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/settings.gif" width="600"/>
 
 Aby zmienić ustawienia naszego konta, należy w panelu użytkownika kliknąć zakładkę *Settings*, a następnie wprowadzić zmiany i kliknąć przycisk *Edit*.
