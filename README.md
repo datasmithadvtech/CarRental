@@ -2,29 +2,30 @@
 
 # 1. Opis ogólny
 
-> Dokładniejszy opis zawierający diagramy UML znajduje się w zakładce Wiki, znajdującej sią pod poniższym linkiem.
+> A more detailed description of UML diagrams can be found in the Wiki tab, located at the link below.
 > https://github.com/kubabar1/CarRental/wiki
 
 
-## 1.1 Nazwa programu
-*CarRental*
+## 1.1 Program name
+*Car Rental*
 
 ## 1.2 Cel aplikacji
-Głównym celem stworzenia tej aplikacji było wykorzystanie w praktyce dotychczas zgromadzonej przeze mnie wiedzy na temat tworzenia 
-bazodanowych restowych aplikacji z wykorzystaniem Springa.
+
+The main purpose of creating this application was to put into practice the knowledge I have accumulated on the subject of development
+database rest applications using Spring.
 </br></br>
-Celem programu *CarRental* jest obsługa firmy wypożyczającej auta. Głównym zadaniem aplikacji jest umożliwienie przejrzenia listy aut 
-oraz ich szegółów przez klientów, a następnie rezerwacji wybranego auta. Aplikacja posiada również panel klienta umożliwiający 
-przeglądanie zamówień oraz zmianę ustawień konta, oraz panel administratora umożliwiający m.in. administrowanie zamówieniami oraz 
-użytkownikami, dodawanie i edycję aut, edycję wyposażenia aut. Aplikacja posiada również system logowania oraz rejestracji nowych 
-klientów.
+The purpose of the * CarRental * program is to support the car rental company. The main task of the application is to allow you to view the list of cars
+and their details by customers, and then booking the selected car. The application also has a client panel that allows
+viewing orders and changing account settings, and an administrator panel enabling, among others administration of orders and
+users, adding and editing cars, editing car equipment. The application also has a logging system and new registration
+customers.
 
 ## 1.3 Krótkie wstępne podsumowanie aplikacji
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/home.png" width="800"/>
 
 ### Backend:
-Restowe API napisane w Springu z wykorzystaniem następujących technologii:
+REST API written in Spring using the following technologies:
 
 <ul>
   <li>Spring MVC</li>
@@ -35,9 +36,9 @@ Restowe API napisane w Springu z wykorzystaniem następujących technologii:
 W sumie projekt składa się z 8 pakietów, 83 klas które łącznie mają ok. 5000  linii kodu.
 
 ### Frontend:
-Frontend został głównie napisany z wykorzystaniem Reacta. Technologię Thymeleaf wykorzystałem do stworzenia panelu logowania, 
-rejestracji oraz jako podstawę do głównej strony projektu oraz panelu użytkownika. W sumie przy tworzeniu frontendu wykorzystałem 
-następujące technologie:
+Frontend was mainly written using React. I used the Thymeleaf technology to create a login panel,
+registration and as the basis for the main page of the project and the user panel. In total, I used to create the frontend
+the following technologies:
 
 <ul>
   <li>React, React Router</li>
@@ -79,34 +80,38 @@ W sumie frontend składa się ze 101 plików, które w sumie liczą ok. 8000 lin
 </br>
 
 ### W celu uruchomienia projektu należy wykonać następujące kroki:
-1.	Sklonuj repozytorium: https://github.com/kubabar1/CarRental.git
+1.	Clone the repository: https://github.com/kubabar1/CarRental.git
 ```
   git clone https://github.com/kubabar1/CarRental.git
 ```
 
-2.	Używając skryptu bazy danych o nazwie carrental.sql znajdującego się <a href="https://github.com/kubabar1/CarRental/blob/master/carrental.sql">tutaj</a> 
-utwórz bazę danych na serwerze MySQL. Aby zainstalować bazę danych należy wpisać poniższą komendę:
+2.	
+Using a database script called carrental.sql located <a href="https://github.com/kubabar1/CarRental/blob/master/carrental.sql"> here </a>
+create a database on the MySQL server. To install the database, enter the following command:
 ```
    sudo mysql –u root < carrental.sql
 ```
 
-Polecenie to spowoduje usunięcie istniejącej bazy danych o nazwie carrental (jeżeli istnieje) i utworzenie nowej wraz z tabelami i wpisanymi do nich wartościami. 
-!!! bardzo istotne jest to, aby w naszej bazie danych znajdował się użytkownik root, nie posiadający hasła, jeżeli jednak jest ustawione hasło, należy je wpisać w pliku *persistence-mysql.properties* <a href="https://github.com/kubabar1/CarRental/blob/master/CarRental/src/main/java/persistence-mysql.properties">link</a>.
 
-3.	Przejdż do katalogu w projekcie w którym znajduje się plik pom.xml i wykonaj następujące polecenie:
+This command will delete the existing database named carrental (if any) and create a new one with the tables and the values ​​entered into them.
+!!! it is very important that there is a root user in our database, without a password, but if a password is set, enter it in the * persistence-mysql.properties * file <a href="https://github.com/kubabar1/CarRental/blob/master/CarRental/src/main/java/persistence-mysql.properties">link</a>.
+
+3.	
+Go to the directory in the project where the pom.xml file is located and execute the following command:
  ```
    sudo mvn clean install
 ```
  
-*sudo* jest konieczne ze względu na fakt, że Maven tworzy w folderze głównym systemu folder w którym wypakowuje część zdjęć 
-wykorzystywanych w aplikacji oraz w którym są przechowywane m.in. zdjęcia dodanych przez nas aut.
+* sudo * is necessary due to the fact that Maven creates a folder in the root directory of the system in which it extracts some photos
+used in the application and in which they are stored, among others photos of cars added by us.
 
-4.	Po zakończeniu działania programu Maven należy przejść do folderu *CarRental/target* i skopiować plik CarRental.war do folderu 
-*webapps* naszego serwera *Tomcat* (np. dla serwera Tomcat 8 będzie to folder */var/lib/tomcat8/webapps*).
+4.	After Maven is finished, go to the * CarRental / target * folder and copy the CarRental.war file into the folder
+* webapps * of our * Tomcat * server (e.g. for Tomcat 8 it will be * / var / lib / tomcat8 / webapps *).
 
-5.	Edytujemy konfigurację w pliku */etc/tomcat8/server.xml*:
+5.	
+We edit the configuration in the * / etc / tomcat8 / server.xml * file:
 
-a)	Dla systemu Windows
+a)	For Windows
 ```
   <Host name="localhost">
     
@@ -116,7 +121,8 @@ a)	Dla systemu Windows
   </Host>
 ```
     
-b)	Dla systemu Linux: 
+b)	
+For Linux:
 ```
   <Host name="localhost">
     
