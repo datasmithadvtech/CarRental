@@ -141,41 +141,41 @@ Dzięki temu nasza aplikacja będzie mogła mieć dostęp do zdjęć przechowywa
 
 7.	Wpisujemy w przegladarce adres *http://localhost:8080/CarRental*
 
-## 2.2 Możliwości programu i główne funkcjonalności
+## 2.2 Program capabilities and main functionalities
 
-#### 2.2.1 Wyświetlenie ekranu głównego
+#### 2.2.1 Display the home screen
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/home.gif" width="600"/>
 
 Ekran główny wyświetla się po kliknięciu przycisku *Home* w menu lub kliknięciu w logo firmy. Przeglądanie listy pojazdów
 Listę pojazdów możemy wyświetlić po kliknięciu przycisku *Car list* w menu.
 
-#### 2.2.2 Wyszukiwanie pojazdów według podanych kryteriów
+#### 2.2.2 Search for vehicles according to given criteria
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/carsearch.gif" width="600"/>
 
 Aby wyszukać pojazdy według kryteriów należy przejść do listy pojazdów przez kliknięcie przycisku *Car list* w menu, a następnie wprowadzić pożądane kryteria w panelu filtrów i kliknąć przycisk *Search*. Spowoduje to wyświetlenie na ekranie pojazdów spełniających pożądane kryteria.
 
-#### 2.2.3 Przejrzenie szczegółów pojazdu
+#### 2.2.3 Review vehicle details
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/carprops.gif" width="600"/>
 
 Aby przejrzeć informacje szczegółowe na temat pojazdów należy przejść do listy pojazdów (po kliknięciu *Car rental*), a następnie przy wybranym pojeździe z listy kliknąć przycisk *Properties*.
 
-#### 2.2.4	Rezerwacja pojazdu
+#### 2.2.4	Vehicle booking
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/reserve1.gif" width="600"/>
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/reserve2.gif" width="600"/>
 
 Zarezerwować pojazd może tylko zalogowany użytkownik. Aby zarezerwować pojazd należy wypełnić formularz znajdujący się na podstronie *Home* i kliknąć przycisk *Reserve*. Następnie należy wypełnić poszczególne podstrony formularza i na ostatniej wybrać *Reserve*. Pojazd można również zarezerwować poprzez kliknięcie przycisku *Reserve*, znajdującego się na podsterownie detali wybranego auta (użytkownik musi być zalogowany aby zobaczyć owy przycisk).
 
-#### 2.2.5 Dodanie komentarza na temat pojazdu.
+#### 2.2.5 Adding a comment about the vehicle.
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/comment.gif" width="600"/>
 
 Aby dodać komentarz należy być zalogowanym. Komentarz wraz z liczbą gwiazdek można dodać na podstronie szczegółów danego pojazdu.
 
-#### 2.2.6 Przejrzenie listy najlepszych ofert
+#### 2.2.6 Reviewing the list of the best offers
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/bestoffers.gif" width="600"/>
 
