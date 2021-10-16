@@ -58,12 +58,12 @@ In total, the frontend consists of 101 files with a total of approx. 8000 lines 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/actors_diagram.png" width="600"/>
 
 <ul>
-  <li><b>Admin</b> - osoba zarządzająca stroną posiadająca najwięcej uprawnień</li>
-  <li><b>Customer</b> - klient, osoba korzystająca z naszej strony w celu rezerwacji auta, każdy użytkownik który zakłada konto posiada
-    początkowo rolę klienta, pozostałe role są przypisywane przez admina
+  <li><b>Admin</b> - the person managing the website with the most rights</li>
+  <li><b>Customer</b> - a customer, a person using our website to book a car, each user who creates an account has
+    initially the client role, the remaining roles are assigned by the admin
   </li>
-  <li><b>Renting employee</b> - osoba wypożyczająca auta, ma m.in uprawnienia do zarządzania wszystkimi zamówieniami</li>
-  <li><b>Office employee</b> - osoba pracująca na stanowisku biurowym</li>
+  <li><b>Renting employee</b> -the person renting the car has, among others, the authority to manage all orders</li>
+  <li><b>Office employee</b> - a person working in an office position</li>
 </ul>
 
 # 2. Description of functionality
@@ -72,9 +72,9 @@ In total, the frontend consists of 101 files with a total of approx. 8000 lines 
 
 ### Do uruchomienia potrzebne będą:
 <ul>
-  <li>serwer MySQL (można go pobrać poleceniem <i>sudo apt-get install mysql-server</i>),</li>
-  <li>Maven (można go pobrać poleceniem <i>sudo apt-get install maven</i>),</li>
-  <li>Tomcat (należy później skonfigurować użytkowników i nadać im odpowiednie prawa)</li>
+  <li>MySQL server (can be downloaded with the command <i>sudo apt-get install mysql-server</i>),</li>
+  <li>Maven (can be downloaded with the command <i>sudo apt-get install maven</i>),</li>
+  <li>Tomcat (you must configure the users later and give them the appropriate rights)</li>
 </ul>
 
 </br>
@@ -131,15 +131,14 @@ For Linux:
     <Context docBase="/carrental/img/etc_img" path="/CarRental/etc-img"/>
   </Host>
 ```
-    
-Dzięki temu nasza aplikacja będzie mogła mieć dostęp do zdjęć przechowywanych na dysku.
+    Thanks to this, our application will be able to access the photos stored on the disk.
 
-6.	Uruchamiamy serwer poleceniem (dla wersji serwera Tomcat 8): 
+6.	We start the server with the command (for the Tomcat 8 server version): 
 ```
   sudo service tomcat8 start 
 ```
 
-7.	Wpisujemy w przegladarce adres *http://localhost:8080/CarRental*
+7.Enter the address in the browser*http://localhost:8080/CarRental*
 
 ## 2.2 Program capabilities and main functionalities
 
@@ -179,14 +178,12 @@ You must be logged in to add a comment. A comment with the number of stars can b
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/bestoffers.gif" width="600"/>
 
-Listę najlepszych ofert możemy wyświetlić po kliknięciu przycisku *Best offers* w menu.
-
+The list of the best offers can be displayed by clicking the * Best offers * button in the menu.
 #### 2.2.7 Read information about the company.
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/aboutus.gif" width="600"/>
 
-Informacje na temat firmy możemy przeczytać po kliknięciu przycisku *About us*.
-
+Information about the company can be read after clicking the * About us * button.
 #### 2.2.8 Obtaining contact details of the company.
 
 <img src="https://github.com/kubabar1/readme_images_repository/blob/master/car_rental_images/contact.gif" width="600"/>
